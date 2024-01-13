@@ -1,0 +1,1100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot name="nvidia_kaya">
+  <joint name="axle_0_joint" type="continuous">
+    <origin xyz="0. -0.048276 -0.045501" rpy="0. 0. -1.5707964"/>
+    <parent link="kaya"/>
+    <child link="axle_0"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="axle_1_joint" type="continuous">
+    <origin xyz="0.0851617 0.0991147 -0.045501 " rpy="0. 0. 0.5236036"/>
+    <parent link="kaya"/>
+    <child link="axle_1"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="axle_2_joint" type="continuous">
+    <origin xyz="-0.0850569 0.0992962 -0.045501 " rpy="0. 0. 2.6180036"/>
+    <parent link="kaya"/>
+    <child link="axle_2"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="roller_0_0_0_joint" type="continuous">
+    <origin xyz="0.010035 -0.000023 -0.021325" rpy="0. 0. 1.5707964"/>
+    <parent link="axle_0"/>
+    <child link="roller_0_0_0"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="roller_0_0_1_joint" type="continuous">
+    <origin xyz="0.010035 0.0202526 -0.0065939" rpy="0. -1.2566371 1.5707964"/>
+    <parent link="axle_0"/>
+    <child link="roller_0_0_1"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="roller_0_0_2_joint" type="continuous">
+    <origin xyz="0.010035 0.012508 0.0172414" rpy="3.1415927 -0.6283185 -1.5707964"/>
+    <parent link="axle_0"/>
+    <child link="roller_0_0_2"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="roller_0_0_3_joint" type="continuous">
+    <origin xyz="0.010035 -0.012554 0.0172414" rpy="3.1415927 0.6283186 -1.5707964"/>
+    <parent link="axle_0"/>
+    <child link="roller_0_0_3"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="roller_0_0_4_joint" type="continuous">
+    <origin xyz="0.010035 -0.0202986 -0.0065939" rpy="0. 1.2566369 1.5707964"/>
+    <parent link="axle_0"/>
+    <child link="roller_0_0_4"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="roller_0_1_0_joint" type="continuous">
+    <origin xyz="0.029077 0.012508 -0.0172534" rpy="0. -0.6283185 1.5707964"/>
+    <parent link="axle_0"/>
+    <child link="roller_0_1_0"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="roller_0_1_1_joint" type="continuous">
+    <origin xyz="0.029077 0.0202526 0.0065819" rpy="3.1415927 -1.2566371 -1.5707964"/>
+    <parent link="axle_0"/>
+    <child link="roller_0_1_1"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="roller_0_1_2_joint" type="continuous">
+    <origin xyz="0.029077 -0.000023 0.021313" rpy="3.1415927 0.0000001 -1.5707964"/>
+    <parent link="axle_0"/>
+    <child link="roller_0_1_2"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="roller_0_1_3_joint" type="continuous">
+    <origin xyz="0.029077 -0.0202986 0.0065819" rpy="3.1415927 1.256637 -1.5707964"/>
+    <parent link="axle_0"/>
+    <child link="roller_0_1_3"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="roller_0_1_4_joint" type="continuous">
+    <origin xyz="0.029077 -0.012554 -0.0172534" rpy="0. 0.6283186 1.5707964"/>
+    <parent link="axle_0"/>
+    <child link="roller_0_1_4"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="roller_1_0_0_joint" type="continuous">
+    <origin xyz="0.010035 -0.000023 -0.021325" rpy="0. 0. 1.5707964"/>
+    <parent link="axle_1"/>
+    <child link="roller_1_0_0"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="roller_1_0_1_joint" type="continuous">
+    <origin xyz="0.010035 0.0202526 -0.0065939" rpy="0. -1.2566371 1.5707964"/>
+    <parent link="axle_1"/>
+    <child link="roller_1_0_1"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="roller_1_0_2_joint" type="continuous">
+    <origin xyz="0.010035 0.012508 0.0172414" rpy="3.1415927 -0.6283185 -1.5707964"/>
+    <parent link="axle_1"/>
+    <child link="roller_1_0_2"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="roller_1_0_3_joint" type="continuous">
+    <origin xyz="0.010035 -0.012554 0.0172414" rpy="3.1415927 0.6283186 -1.5707964"/>
+    <parent link="axle_1"/>
+    <child link="roller_1_0_3"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="roller_1_0_4_joint" type="continuous">
+    <origin xyz="0.010035 -0.0202986 -0.0065939" rpy="0. 1.2566369 1.5707964"/>
+    <parent link="axle_1"/>
+    <child link="roller_1_0_4"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="roller_1_1_0_joint" type="continuous">
+    <origin xyz="0.029077 0.012508 -0.0172534" rpy="0. -0.6283185 1.5707964"/>
+    <parent link="axle_1"/>
+    <child link="roller_1_1_0"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="roller_1_1_1_joint" type="continuous">
+    <origin xyz="0.029077 0.0202526 0.0065819" rpy="3.1415927 -1.2566371 -1.5707964"/>
+    <parent link="axle_1"/>
+    <child link="roller_1_1_1"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="roller_1_1_2_joint" type="continuous">
+    <origin xyz="0.029077 -0.000023 0.021313" rpy="3.1415927 0.0000001 -1.5707964"/>
+    <parent link="axle_1"/>
+    <child link="roller_1_1_2"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="roller_1_1_3_joint" type="continuous">
+    <origin xyz="0.029077 -0.0202986 0.0065819" rpy="3.1415927 1.256637 -1.5707964"/>
+    <parent link="axle_1"/>
+    <child link="roller_1_1_3"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="roller_1_1_4_joint" type="continuous">
+    <origin xyz="0.029077 -0.012554 -0.0172534" rpy="0. 0.6283186 1.5707964"/>
+    <parent link="axle_1"/>
+    <child link="roller_1_1_4"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="roller_2_0_0_joint" type="continuous">
+    <origin xyz="0.010035 -0.000023 -0.021325" rpy="0. 0. 1.5707964"/>
+    <parent link="axle_2"/>
+    <child link="roller_2_0_0"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="roller_2_0_1_joint" type="continuous">
+    <origin xyz="0.010035 0.0202526 -0.0065939" rpy="0. -1.2566371 1.5707964"/>
+    <parent link="axle_2"/>
+    <child link="roller_2_0_1"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="roller_2_0_2_joint" type="continuous">
+    <origin xyz="0.010035 0.012508 0.0172414" rpy="3.1415927 -0.6283185 -1.5707964"/>
+    <parent link="axle_2"/>
+    <child link="roller_2_0_2"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="roller_2_0_3_joint" type="continuous">
+    <origin xyz="0.010035 -0.012554 0.0172414" rpy="3.1415927 0.6283186 -1.5707964"/>
+    <parent link="axle_2"/>
+    <child link="roller_2_0_3"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="roller_2_0_4_joint" type="continuous">
+    <origin xyz="0.010035 -0.0202986 -0.0065939" rpy="0. 1.2566369 1.5707964"/>
+    <parent link="axle_2"/>
+    <child link="roller_2_0_4"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="roller_2_1_0_joint" type="continuous">
+    <origin xyz="0.029077 0.012508 -0.0172534" rpy="0. -0.6283185 1.5707964"/>
+    <parent link="axle_2"/>
+    <child link="roller_2_1_0"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="roller_2_1_1_joint" type="continuous">
+    <origin xyz="0.029077 0.0202526 0.0065819" rpy="3.1415927 -1.2566371 -1.5707964"/>
+    <parent link="axle_2"/>
+    <child link="roller_2_1_1"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="roller_2_1_2_joint" type="continuous">
+    <origin xyz="0.029077 -0.000023 0.021313" rpy="3.1415927 0.0000001 -1.5707964"/>
+    <parent link="axle_2"/>
+    <child link="roller_2_1_2"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="roller_2_1_3_joint" type="continuous">
+    <origin xyz="0.029077 -0.0202986 0.0065819" rpy="3.1415927 1.256637 -1.5707964"/>
+    <parent link="axle_2"/>
+    <child link="roller_2_1_3"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <joint name="roller_2_1_4_joint" type="continuous">
+    <origin xyz="0.029077 -0.012554 -0.0172534" rpy="0. 0.6283186 1.5707964"/>
+    <parent link="axle_2"/>
+    <child link="roller_2_1_4"/>
+    <axis xyz="1. 0. 0."/>
+  </joint>
+  <link name="axle_0">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.1648875"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 1.5707964"/>
+      <geometry>
+        <mesh filename="meshes/axle_0_visuals_mesh_0.obj" scale="0.1 0.1 0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.019556 -0.000023 -0.000006" rpy="0. 0. 1.5707964"/>
+      <geometry>
+        <mesh filename="meshes/axle_0_visuals_mesh_1.obj" scale="0.1 0.1 0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.018622 0. 0. " rpy="1.5707964 0. 1.5707964"/>
+      <geometry>
+        <cylinder radius="0.0155" length="0.0448"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.019556 -0.000023 -0.000006" rpy="1.5707964 0. 1.5707964"/>
+      <geometry>
+        <cylinder radius="0.034" length="0.0292"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.018622 0. 0. " rpy="1.5707964 0. 1.5707964"/>
+      <geometry>
+        <cylinder radius="0.0155" length="0.0448"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.019556 -0.000023 -0.000006" rpy="1.5707964 0. 1.5707964"/>
+      <geometry>
+        <cylinder radius="0.034" length="0.0292"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="axle_1">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.1648875"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 1.5707964"/>
+      <geometry>
+        <mesh filename="meshes/axle_1_visuals_mesh_0.obj" scale="0.1 0.1 0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.019556 -0.000023 -0.000006" rpy="0. 0. 1.5707964"/>
+      <geometry>
+        <mesh filename="meshes/axle_1_visuals_mesh_1.obj" scale="0.1 0.1 0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.018622 0. 0. " rpy="1.5707964 0. 1.5707964"/>
+      <geometry>
+        <cylinder radius="0.0155" length="0.0448"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.019556 -0.000023 -0.000006" rpy="1.5707964 0. 1.5707964"/>
+      <geometry>
+        <cylinder radius="0.034" length="0.0292"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.018622 0. 0. " rpy="1.5707964 0. 1.5707964"/>
+      <geometry>
+        <cylinder radius="0.0155" length="0.0448"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.019556 -0.000023 -0.000006" rpy="1.5707964 0. 1.5707964"/>
+      <geometry>
+        <cylinder radius="0.034" length="0.0292"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="axle_2">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.1648875"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 1.5707964"/>
+      <geometry>
+        <mesh filename="meshes/axle_2_visuals_mesh_0.obj" scale="0.1 0.1 0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.019556 -0.000023 -0.000006" rpy="0. 0. 1.5707964"/>
+      <geometry>
+        <mesh filename="meshes/axle_2_visuals_mesh_1.obj" scale="0.1 0.1 0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.018622 0. 0. " rpy="1.5707964 0. 1.5707964"/>
+      <geometry>
+        <cylinder radius="0.0155" length="0.0448"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.019556 -0.000023 -0.000006" rpy="1.5707964 0. 1.5707964"/>
+      <geometry>
+        <cylinder radius="0.034" length="0.0292"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.018622 0. 0. " rpy="1.5707964 0. 1.5707964"/>
+      <geometry>
+        <cylinder radius="0.0155" length="0.0448"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.019556 -0.000023 -0.000006" rpy="1.5707964 0. 1.5707964"/>
+      <geometry>
+        <cylinder radius="0.034" length="0.0292"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="kaya">
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/base_link_visuals_mesh_0.obj" scale="0.1 0.1 0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.000825 0.077436 0.024927" rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/base_link_visuals_mesh_1.obj" scale="0.1 0.1 0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.00114 0.071549 0.062302" rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/base_link_visuals_mesh_2.obj" scale="0.1 0.1 0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.001192 0.079804 0.084978" rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/base_link_visuals_mesh_3.obj" scale="0.1 0.1 0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.001053 0.090384 0.090843" rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/base_link_visuals_mesh_4.obj" scale="0.1 0.1 0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.000996 0.055389 -0.033654" rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/base_link_visuals_mesh_5.obj" scale="0.1 0.1 0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.000105 -0.025453 -0.032597" rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/base_link_visuals_mesh_6.obj" scale="0.1 0.1 0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.065344 0.087794 -0.032597" rpy="0. 0. 2.0944"/>
+      <geometry>
+        <mesh filename="meshes/base_link_visuals_mesh_7.obj" scale="0.1 0.1 0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.065344 0.087794 -0.032597" rpy="0. 0. -2.0943854"/>
+      <geometry>
+        <mesh filename="meshes/base_link_visuals_mesh_8.obj" scale="0.1 0.1 0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.124025 0.015933" rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/base_link_visuals_mesh_9.obj" scale="0.1 0.1 0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.021377 0.075734 0.073117" rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/mesh_10.obj" scale="0.1 0.1 0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.023644 0.075734 0.073117" rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/mesh_11.obj" scale="0.1 0.1 0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.001141 0.054717 0.073117" rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/mesh_12.obj" scale="0.1 0.1 0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/base_link_collisions_mesh_0.obj" scale="0.1 0.1 0.1"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.0009993 0.054119 -0.033413 " rpy="0. 0. 0."/>
+      <geometry>
+        <box size="0.077 0.114 0.0486"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.000105 -0.025453 -0.032597" rpy="0. 0. 0."/>
+      <geometry>
+        <box size="0.0328 0.038 0.0502"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.065344 0.087794 -0.032597" rpy="0. 0. 2.0944"/>
+      <geometry>
+        <box size="0.0328 0.038 0.0502"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.065344 0.087794 -0.032597" rpy="0. 0. -2.0943854"/>
+      <geometry>
+        <box size="0.0328 0.038 0.0502"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0. 0.123042 -0.031286" rpy="0. 0. 0."/>
+      <geometry>
+        <box size="0.029 0.009 0.0952"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.049078 0.141491 -0.058921" rpy="0. 0. -0.4188799"/>
+      <geometry>
+        <box size="0.0904 0.0056 0.0394"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.049078 0.141491 -0.058921" rpy="0. 0. 0.4188799"/>
+      <geometry>
+        <box size="0.0904 0.0056 0.0394"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="-0.095612 0.168555 -0.065632" rpy="0. 0. -1.0576999"/>
+      <geometry>
+        <box size="0.0198 0.0056 0.0258"/>
+      </geometry>
+    </visual>
+    <visual>
+      <origin xyz="0.095612 0.168555 -0.065632" rpy="0. 0. 1.0576999"/>
+      <geometry>
+        <box size="0.0198 0.0056 0.0258"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <mesh filename="meshes/base_link_collisions_mesh_0.obj" scale="0.1 0.1 0.1"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.0009993 0.054119 -0.033413 " rpy="0. 0. 0."/>
+      <geometry>
+        <box size="0.077 0.114 0.0486"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.000105 -0.025453 -0.032597" rpy="0. 0. 0."/>
+      <geometry>
+        <box size="0.0328 0.038 0.0502"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.065344 0.087794 -0.032597" rpy="0. 0. 2.0944"/>
+      <geometry>
+        <box size="0.0328 0.038 0.0502"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.065344 0.087794 -0.032597" rpy="0. 0. -2.0943854"/>
+      <geometry>
+        <box size="0.0328 0.038 0.0502"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0. 0.123042 -0.031286" rpy="0. 0. 0."/>
+      <geometry>
+        <box size="0.029 0.009 0.0952"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.049078 0.141491 -0.058921" rpy="0. 0. -0.4188799"/>
+      <geometry>
+        <box size="0.0904 0.0056 0.0394"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.049078 0.141491 -0.058921" rpy="0. 0. 0.4188799"/>
+      <geometry>
+        <box size="0.0904 0.0056 0.0394"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="-0.095612 0.168555 -0.065632" rpy="0. 0. -1.0576999"/>
+      <geometry>
+        <box size="0.0198 0.0056 0.0258"/>
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0.095612 0.168555 -0.065632" rpy="0. 0. 1.0576999"/>
+      <geometry>
+        <box size="0.0198 0.0056 0.0258"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="roller_0_0_0">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.0335103"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="roller_0_0_1">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.0335103"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="roller_0_0_2">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.0335103"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="roller_0_0_3">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.0335103"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="roller_0_0_4">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.0335103"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="roller_0_1_0">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.0335103"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="roller_0_1_1">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.0335103"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="roller_0_1_2">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.0335103"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="roller_0_1_3">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.0335103"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="roller_0_1_4">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.0335103"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="roller_1_0_0">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.0335103"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="roller_1_0_1">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.0335103"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="roller_1_0_2">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.0335103"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="roller_1_0_3">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.0335103"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="roller_1_0_4">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.0335103"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="roller_1_1_0">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.0335103"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="roller_1_1_1">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.0335103"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="roller_1_1_2">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.0335103"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="roller_1_1_3">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.0335103"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="roller_1_1_4">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.0335103"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="roller_2_0_0">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.0335103"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="roller_2_0_1">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.0335103"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="roller_2_0_2">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.0335103"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="roller_2_0_3">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.0335103"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="roller_2_0_4">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.0335103"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="roller_2_1_0">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.0335103"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="roller_2_1_1">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.0335103"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="roller_2_1_2">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.0335103"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="roller_2_1_3">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.0335103"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="roller_2_1_4">
+    <inertial>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <mass value="0.0335103"/>
+      <inertia ixx="0." ixy="0." ixz="0." iyy="0." iyz="0." izz="0."/>
+    </inertial>
+    <visual>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0. 0. 0." rpy="0. 0. 0."/>
+      <geometry>
+        <sphere radius="0.02"/>
+      </geometry>
+    </collision>
+  </link>
+</robot>
